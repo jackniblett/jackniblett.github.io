@@ -37,8 +37,10 @@ p{
 img{
 	display: block;
 	margin: 0 auto;
-	height: 80%;
-	width: 80%;
+	min-height: 50%;
+	max-height: 100%;
+	min-width: 50%;
+	max-width: 100%;
 	margin-top: 5vh;
 }
 
@@ -46,14 +48,14 @@ hr{
 	width: 60%;
 	display: block;
 	margin: 0 auto;
-	margin-top: 50px;
+	margin-top: 30px;
 	border-color: black;
+
 }
 
 .social{
 	display: block;
-	margin: 0 auto;
-	font-size: 45px;
-	margin-top: 50px;
-	margin-left: 30%;
+	font-size: 40px;
+	margin-top: 30px;
+	margin-left: 50px;
 }
