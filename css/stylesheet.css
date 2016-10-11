@@ -1,3 +1,22 @@
-*{
+body{
+	
+}
 
+#togglebox{
+	
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	z-index: 999;
+}
+
+a {outline : none;}
+
+a img {outline:none;}
+
+img {border: 0;}
+
+a span{
+	font-size: 10px;
+	color: #2043C4;
 }

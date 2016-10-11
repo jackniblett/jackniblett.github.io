@@ -16,36 +16,83 @@
 		<link rel="stylesheet" href="css/lightbox.min.css">
 
 		<!--SIDEBAR CSS-->
-		<link rel="stylesheet" href="css/stylesheet.css">
+		<link rel="stylesheet" href="css/sidebar.css">
 
 		<!--MY LINKS-->
 		<link rel="stylesheet" href="css/stylesheet.css">
+
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
 	</head>
-	<body>
-		
-		<h1> SITE TESTING </h1>
-		<p>Just typing some absolute garbage to have a look at what it looks like
-		on the site, whether the Bootstrap theme is working or not, etc. etc..
-		</p>
+	<body>	
+	    <div id="wrapper">
 
-   		<a href="images/ant.jpeg" data-lightbox="image-1">
-   			<img src="images/ant.jpeg">
-   		</a>
-   		<a href="images/cat.png" data-lightbox="image-1">
-   			<img src="images/cat.png">
-   		</a>
+	        <!-- Sidebar -->
+	        <div id="sidebar-wrapper">
+	            <ul class="sidebar-nav">
+	                <li class="sidebar-brand">
+	                    <a href="#">
+	                        JACK NIBLETT
+	                    </a>
+	                </li>
+	                <li>
+	                    <a href="#">HOME</a>
+	                </li>
+	                <li>
+	                    <a href="#">ABOUT</a>
+	                </li>
+	                <li>
+	                    <a href="#">GALLERY</a>
+	                </li>
+	                <li>
+	                    <a href="#">BLOG</a>
+	                </li>
+	            </ul>
+	        </div>
+
+	        <!-- Page Content -->
+	        <div id="page-content-wrapper">
+	            <div class="container-fluid">
+	                <div class="row">
+	                    <div class="col-lg-12">
+	                		<div id="main">
+								<h1> SITE TESTING </h1>
+								<p>Just typing some absolute garbage to have a look at what it looks like
+								on the site, whether the Bootstrap theme is working or not, etc. etc..
+								</p>
+
+						   		<a href="images/ant.jpeg" data-lightbox="image-1">
+						   			<img src="images/ant.jpeg">
+						   		</a>
+						   		<a href="images/cat.png" data-lightbox="image-1">
+						   			<img src="images/cat.png">
+	   							</a>
+
+	   							<div id="togglebox">
+	   								<a href="#menu-toggle" id="menu-toggle"><span class="fa fa-bars fa-3x"></a>
+	   							</div>
 
 
-
-
-
-
-
-
+	   						</div>
+	                     
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	        <!-- /#page-content-wrapper -->
 
 		<!--SCRIPT LINKS-->
+		<script src="js/lightbox-plus-jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 	    <script src="js/script.js"></script> <!--My script-->
-	    <script src="js/lightbox-plus-jquery.min.js"></script>
+
+	    <script>
+	    $("#menu-toggle").click(function(e) {
+	        e.preventDefault();
+	        $("#wrapper").toggleClass("toggled");
+	    });
+	    </script>
+
 	</body>
 </html>
