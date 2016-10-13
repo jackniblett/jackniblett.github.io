@@ -7,9 +7,9 @@
 #togglebox{
 	
 	position: fixed;
-	bottom: 0.3em;
-	left: 0.5em;
-	z-index: 20;
+	bottom: 2vh;
+	left: 2vw;
+	z-index: 999;
 }
 
 a {outline : none;}
@@ -23,11 +23,6 @@ a span{
 	color: #2043C4;
 }
 
-.escapezone span{
-	font-size: 10000;
-	color: #2043C4;
-}
-
 h1{
 	text-align: center;
 	font-size: 50px;
@@ -35,15 +30,15 @@ h1{
 
 p{
 	text-align: center;
-	font-size: 22px;
+	font-size: 18px;
 	color: #2043C4;
-	margin-bottom: 1em;
-
 }
 
 img{
 	display: block;
 	margin: 0 auto;
+	width: 70%;
+	height: 70%;
 }
 
 hr{
@@ -63,37 +58,16 @@ hr{
 }
 
 #main{
-	height: 100vh;
-	overflow: hidden;
+	border-style: solid;
+	border-color: red;
+	height: 100vh
 }
+
+$height: 60vh;
 
 #splash{
 	display: block;
 	margin: 0 auto;
-	max-width: 80vw;
-	max-height: 65vh;
-	margin-bottom: -1em;
-}
-
-#escape{
-	height: 100%;
-	width: 100%;
-	z-index: 9999;
-	position: absolute;
-}
-
-span img{
-	opacity: 0;
-	width: 100vw;
-	height: 100vh;
-}
-
-#help{
-	position: absolute;
-	margin-top: -0.9em;
-	margin-left: 0.8em;
-}
-
-#cover{
-
+	height: $height;
+	width: $height/2;
 }

@@ -29,8 +29,8 @@
     width: 0;
     height: 100%;
     margin-left: -150px;
-    overflow-y: auto;
-    background: #EFEFEF;
+    overflow: hidden;
+    background: white;
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
@@ -44,7 +44,6 @@
 #page-content-wrapper {
     width: 100%;
     position: absolute;
-    padding: 15px;
 }
 
 #wrapper.toggled #page-content-wrapper {
@@ -101,9 +100,9 @@
     background: none;
 }
 
-@media(min-width:768px) {
+@media(min-width: 1200px) {
     #wrapper {
-        padding-left: 150px;
+        padding-left: 000px;
     }
 
     #wrapper.toggled {
@@ -119,7 +118,6 @@
     }
 
     #page-content-wrapper {
-        padding: 20px;
         position: relative;
     }
 
