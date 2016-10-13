@@ -28,6 +28,10 @@
 	<body>	
 
 	    <div id="wrapper">
+	    	<div id="cover">a</div>
+			<div id="escape" class="visible-xs visible-sm">
+				<a href="#menu-toggle" id="menu-toggle2"><span><img src="images/gate.png"></span></a>
+			</div>
 
 	        <!-- Sidebar -->
 	        <div id="sidebar-wrapper">
@@ -47,7 +51,10 @@
 	                <hr>
 	                <a href="http://instagram.com/jackniblett" class="social"><span class="fa fa-instagram fa-lg"></span></a>
 	                <a href="http://twitter.com/JackNiblett" class="social"><span class="fa fa-twitter-square fa-lg"></span></a>
-	                <hr>
+	                
+	                <div id="help" class="visible-xs visible-sm visible-md">
+	                	<span style="color: #AAA; font-size: 12px;">Tap on the right to close.</span>
+	               	</div>
 	            </ul>
 	        </div>
 
@@ -62,7 +69,7 @@
 									Young artist from Bristol.
 								</p>
 
-						   		<img src="images/gate.png">
+						   		<img id="splash" src="images/gate.png">
 						   		<br>
 						   		<br>
 						   		<p> jackniblett-art@gmail.com </p>
@@ -74,10 +81,9 @@
 						   		</a>
 								-->
 
-	   							<div id="togglebox" class="visible-xs">
+	   							<div id="togglebox" class="visible-md visible-sm visible-xs">
 	   								<a href="#menu-toggle" id="menu-toggle"><span class="fa fa-bars fa-3x"></a>
 	   							</div>
-
 
 
 	   						</div>
@@ -95,7 +101,7 @@
 	    <script src="js/script.js"></script> <!--My script-->
 
 	    <script>
-	    $("#menu-toggle").click(function(e) {
+	    $("#menu-toggle2").click(function(e) {
 	        e.preventDefault();
 	        $("#wrapper").toggleClass("toggled");
 	    });
