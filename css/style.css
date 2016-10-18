@@ -190,7 +190,7 @@ hr{
 
 #central{
 	height: 80%;
-	margin-top: 2vh;
+	margin-top: 1vh;
 
 	border-color: blue;
 	border-style: solid;
@@ -210,7 +210,7 @@ hr{
 	height: 100%;
 	width: auto;
 	max-height: 50vh;
-	max-width: 90%;
+	max-width: 100%;
 
 	border-color: orange;
 	border-style: solid;
