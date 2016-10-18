@@ -175,7 +175,7 @@ hr{
 
 #central_wrapper{
 	margin: 0 auto;
-	width: 80vw;
+	width: 100vw;
 	height: 70vh;
 	max-width: 700px;
 	z-index: 999;
@@ -183,26 +183,17 @@ hr{
 	padding: 0;
 	margin-top: 5vh;
 
-	border-color: red;
-	border-style: solid;
-
 }
 
 #central{
 	height: 80%;
 	margin-top: 1vh;
-
-	border-color: blue;
-	border-style: solid;
 }
 
 #splash{
 	height: 80%
 	margin-bottom: 10%;
 	width: auto;
-
-	border-color: green;
-	border-style: solid;
 }
 
 #splash img{
@@ -212,9 +203,6 @@ hr{
 	max-height: 50vh;
 	max-width: 100%;
 
-	border-color: orange;
-	border-style: solid;
-	border-width: 5px;
 }
 
 #bigtext_top{
