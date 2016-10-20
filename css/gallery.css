@@ -12,6 +12,7 @@
 	max-width: 900px;
 	text-align: center;
 	overflow: hidden;
+
 }
 
 #gallery_heading{
@@ -21,6 +22,8 @@
 #images_container{
 	width: 100%;
 	height: 5000px;
+	margin-top: 20px;
+
 
 }
 
@@ -52,9 +55,6 @@ div a img{
 	margin: 0;
 }
 
-img {max-height: none!important;}
-.lightbox img{margin-top:0}
-
 @media only screen and (max-width: 1160px){
 
 	#gallery_container{
@@ -66,5 +66,11 @@ img {max-height: none!important;}
 
 	#gallery_container{
 		margin: 0 auto;
+		margin-top: 5vh;
 	}
+}
+
+@media only screen and (max-width: 600px){
+
+
 }

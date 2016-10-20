@@ -116,7 +116,7 @@ body{
 	width: 100%;
 	max-width: 500px;
 	text-align: center;
-	padding-top: 90px;
+	padding-top: 80px;
 
 	font-size: 65px;
 	line-height: 55px;
@@ -183,17 +183,18 @@ hr{
 	z-index: 999;
 	text-align: center;
 	padding: 0;
-	margin-top: 5vh;
+	margin-top: -20px;
 
 }
 
 #central{
 	height: 80%;
 	margin-top: 1vh;
+
 }
 
 #splash{
-	height: 80%
+	height: 100%;
 	margin-bottom: 10%;
 	width: auto;
 }
@@ -202,9 +203,8 @@ hr{
 	
 	height: 100%;
 	width: auto;
-	max-height: 50vh;
+	max-height: 70vh;
 	max-width: 100%;
-
 }
 
 #bigtext_top{
@@ -258,3 +258,5 @@ hr{
 		
 	}
 }
+
+
