@@ -21,6 +21,10 @@
 		<!--MY LINKS-->
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/gallery.css">
+
+		<!--jQuery for loading from admin script-->
+	
+
 	</head>
 	<body>
 		<div id="smallnav" class="container-fluid visible-xs visible-sm">
@@ -60,46 +64,23 @@
 		<div id="gallery_container">
 			<h1 id="gallery_heading"> Gallery </h1>
 			<div id="images_container">
+
+
 				<div id="column_left" class="column">
-
-					<div class="thumbnail">
-						<a class="gallery_link"  href="images/cat.png" data-lightbox="gallery" data-title="An image of a euphoric cat."><img src="images/cat.png"></a>
-					</div>
-
-					<div class="thumbnail">
-						<a class="gallery_link"  href="images/gate.png" data-lightbox="gallery" data-title="An image of a euphoric cat."><img src="images/gate.png"></a>
-					</div>
-
-				</div>
-				<div id="column_left" class="column">
-
-					<div class="thumbnail">
-						<a class="gallery_link" href="images/ant.jpeg" data-lightbox="gallery" data-title="An image of a euphoric cat."><img src="images/ant.jpeg"></a>
-					</div>
-
-					<div class="thumbnail">
-						<a class="gallery_link"  href="images/wave.jpg" data-lightbox="gallery" data-title="An image of a euphoric cat."><img src="images/wave.jpg"></a>
-					</div>
-
-				</div>
-				<div id="column_left" class="column">
-
-					<div class="thumbnail">
-						<a class="gallery_link"  href="images/justriht.jpg" data-lightbox="gallery" data-title="An image of a euphoric cat."><img src="images/justriht.jpg"></a>
-					</div>
-
-					<div class="thumbnail">
-						<a class="gallery_link"  href="images/jack.jpg" data-lightbox="gallery" data-title="An image of a euphoric cat."><img src="images/jack.jpg"></a>
-					</div>
+				<!--LOADS FROM ADMIN FILE-->
 
 
 				</div>
+				<div id="column_middle" class="column">
+				<!--LOADS FROM ADMIN FILE-->
 
-				<!--<a href="images/cat.png" data-lightbox="gallery" data-title="An image of a euphoric cat."><img src="images/cat.png" class="thumbnail"></a>
 
-				<a href="images/gate.png" data-lightbox="gallery" data-title="An images of a euphoric gate."><img src="images/gate.png" class="thumbnail"></a>
-				-->
+				</div>
+				<div id="column_right" class="column">
+				<!--LOADS FROM ADMIN FILE-->
 
+
+				</div>
 
 			</div>
 		</div>
@@ -109,8 +90,15 @@
 
 
 		<!--SCRIPT LINKS-->
-		<script src="js/lightbox-plus-jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 	    <script src="js/script.js"></script> <!--My script-->
+		<script src="js/lightbox-plus-jquery.min.js"></script>
+	    <script>
+			$(function(){
+				$("#column_left").load("ADMIN/admin_gallery.html #LEFT_COLUMN"); 
+				$("#column_middle").load("ADMIN/admin_gallery.html #MIDDLE_COLUMN"); 
+				$("#column_right").load("ADMIN/admin_gallery.html #RIGHT_COLUMN"); 
+			})
+		</script>
 	</body>
 </html>
