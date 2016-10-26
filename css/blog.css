@@ -1,0 +1,52 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+hr{
+	width: 100%;
+	margin: 0 auto;
+}
+
+#blog_container{
+	display: block; 
+	margin: 0 auto;
+	margin-top: 5vh;
+	width: 100%;
+	max-width: 900px;
+	text-align: center;
+	overflow: hidden;
+
+}
+
+#blog_heading{
+	font-size: 26px;
+}
+
+#post_container{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 30px;
+
+	border-color: white;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.first{
+	font-size: 20px;
+
+}
+
+.post img{
+	width: 50%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: -20px;
+}
+
+.content{
+	margin-top: 20px;
+	font-size: 20px;
+}
+
