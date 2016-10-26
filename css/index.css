@@ -1,0 +1,54 @@
+#central{
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+	margin-top: 5vh;
+	text-align: center;
+
+}
+
+#splash{
+	width: 100%;
+	margin-top: 24px;
+}
+
+#home_heading{
+	font-size: 30px;
+	margin-top: 4px;
+}
+
+#email{
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+
+
+
+@media only screen and (max-height: 860px){
+
+	#home_heading{
+		opacity: 0;
+	}
+
+	#central{
+		margin-top: -50px;
+	}
+
+	#splash{
+		width: 90%;
+	}
+
+}
+
+@media only screen and (max-width: 390px){
+
+	#splash{
+		width: 100%;
+		margin-top: 3vh;
+	}
+
+	#email{
+		margin-top: 1.8vh;
+	}
+}

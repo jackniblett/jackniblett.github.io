@@ -11,10 +11,14 @@
 	max-width: 700px;
 	text-align: center;
 	overflow: hidden;
+
+
 }
 
 #about_heading{
 	font-size: 26px;
+
+
 }
 
 #jack_profile{
@@ -22,7 +26,7 @@
 	width: 100%;
 	max-width: 400px;
 	height: auto;
-	margin-top: 20px;
+	margin-top: 30px;
 	float: left;
 }
 
@@ -44,39 +48,26 @@
 	margin: 8px 8px 8px 8px;
 }
 
-#about_separator{
-	display: block;
-
-
-}
-
-#one{
-	float: left;
+#panorama_container{
 	margin-top: 20px;
 }
 
-#two{
-	margin: 0 auto;
-	margin-top: 20px;
+#panorama{
+	width: 100%;
+	height: auto;
 }
 
-#three{
-	float: right;
-	margin-top: 20px;
-}
+
+
+
+
+
+
+
+
 
 .purple{
 	color: #2043C4;
-}
-
-.about_image{
-	width: 200px;
-	height: 200px;
-	display: inline-block;
-	margin-top: 20px;
-	background-image: url(../images/cat.png);
-	background-size: cover;
-
 }
 
 @media only screen and (max-width: 683px){
@@ -84,6 +75,7 @@
 		position: static;
 		margin: 0 auto;
 		float: none;
+		margin-top: 30px;
 	}
 
 	#blurb{
