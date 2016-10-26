@@ -3,10 +3,6 @@
 	margin: 0;
 }
 
-hr{
-	width: 100%;
-	margin: 0 auto;
-}
 
 #blog_container{
 	display: block; 
@@ -52,5 +48,10 @@ hr{
 
 .post{
 	margin-bottom: 30px;
+}
+
+.post_separator{
+	width: 100%;
+	margin: 0 auto;
 }
 
