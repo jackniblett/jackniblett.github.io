@@ -23,17 +23,17 @@
 #jack_profile{
 	display: block;
 	width: 100%;
-	max-width: 280px;
+	max-width: 270px;
 	height: auto;
 	float: left;
 	margin-right: 20px;
 	border-width: 4px;
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 #blurb{
 	width: 100%;
-	margin-top: 30px;
+	margin-top: 20px;
 	text-align: left;
 	display: block;
 	
