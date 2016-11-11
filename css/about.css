@@ -12,7 +12,6 @@
 	text-align: center;
 	overflow: hidden;
 
-
 }
 
 #about_heading{
@@ -24,41 +23,31 @@
 #jack_profile{
 	display: block;
 	width: 100%;
-	max-width: 400px;
+	max-width: 280px;
 	height: auto;
-	margin-top: 30px;
 	float: left;
+	margin-right: 20px;
+	border-width: 4px;
+	margin-top: 20px;
 }
 
 #blurb{
-	width: 280px;
+	width: 100%;
 	margin-top: 30px;
 	text-align: left;
 	display: block;
-	margin-left: 415px;
+	
+
 	
 	border-color: white;
 	border-width: 2px;
 	border-style: solid;
-
 }
 
 #blurb p{
-	font-size: 18px;
+	font-size: 24px;
 	margin: 8px 8px 8px 8px;
 }
-
-#panorama_container{
-	margin-top: 20px;
-}
-
-#panorama{
-	width: 100%;
-	height: auto;
-}
-
-
-
 
 
 
